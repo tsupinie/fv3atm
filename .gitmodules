@@ -1,7 +1,7 @@
 [submodule "atmos_cubed_sphere"]
 	path = atmos_cubed_sphere
 	url = https://github.com/tsupinie/GFDL_atmos_cubed_sphere
-	branch = hmt
+	branch = nssl-microphysics
 [submodule "ccpp/framework"]
 	path = ccpp/framework
 	url = https://github.com/NCAR/ccpp-framework
@@ -9,4 +9,4 @@
 [submodule "ccpp/physics"]
 	path = ccpp/physics
 	url = https://github.com/tsupinie/ccpp-physics
-	branch = master
+	branch = hmt
