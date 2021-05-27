@@ -40,14 +40,15 @@ module inline_post
 !
 !-----------------------------------------------------------------------
 !
-    subroutine inline_post_getattr(wrt_int_state, fldbundle)
+!   subroutine inline_post_getattr(wrt_int_state, fldbundle)
+    subroutine inline_post_getattr(wrt_int_state)
 !
       use esmf
 !
       implicit none
 !
       type(wrt_internal_state),intent(inout)    :: wrt_int_state
-      type(ESMF_FieldBundle), intent(in)        :: fldbundle
+!     type(ESMF_FieldBundle), intent(in)        :: fldbundle
 !
 !
       print *,'in stub post_getattr_gfs - not supported on this machine, return'
